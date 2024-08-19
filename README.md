@@ -15,7 +15,7 @@ The server will play a crucial role in this system, and here's how I plan to imp
 
   - `LIST`: This command will return a list of all image file names along with their IDs.
   - `DOWN <ID>`: When a client sends this command, the server will return the image associated with the provided ID.
-  - `UP <ID> <Name> <Size> <Image>`: This command will allow the client to upload an image to the server. The server will store the image and update the text file with its details. If the upload is successful, the server will reply with "SUCCESS"; otherwise, it will respond with "FAILURE."
+  - `UP`: This command will allow the client to upload an image to the server. The server will store the image and update the text file with its details. If the upload is successful, the server will reply with "SUCCESS"; otherwise, it will respond with "FAILURE."
 
 ## Client
 
